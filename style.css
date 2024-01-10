@@ -17,12 +17,14 @@ div{
 #navbar{
 
     height: 50px;
+
 }
 
 #flex{
 
     display: flex;
     height: calc(100vh - 50px);
+
 }
 
 #sidebar{
