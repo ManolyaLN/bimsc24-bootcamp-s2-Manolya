@@ -14,9 +14,15 @@ div{
     box-sizing: border-box;
 }
 
+img{
+    height: 100%;
+    width: auto;
+}
+
 #navbar{
 
     height: 50px;
+    border-color: aquamarine;
 
 }
 
@@ -30,13 +36,26 @@ div{
 #sidebar{
 
     width: 30%;
+    border-color: blue;
 }
 
 #main{
 
     width: 70%;
-    background-color: blueviolet;
+    border-color: blueviolet;
 
+}
+
+#title{
+    width: 70%;
+    float: left;
+}
+
+#logo{
+    width: 30%;
+    height: 100%;
+    float: right;
+    text-align: right;
 }
 
 .container{
