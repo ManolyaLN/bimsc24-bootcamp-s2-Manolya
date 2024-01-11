@@ -45,9 +45,17 @@ const main = document.querySelector("#main")
 
 function doSomething(){
 
+
     //create a p element
+    paraTag = document.createElement("p")
+
+
     //fill that p element with some text
+    paraText = document.createTextNode("MANOLYA LEYLA NIELSEN IS THE BEST ARCHITECT");
+
     //append that element to main
+    paraTag.appendChild(paraText)
+
 
  let inputText = input.value
  main.innerHTML += inputText
@@ -60,7 +68,7 @@ function Refresh(){
 let inputText = input.value
  main.innerHTML = ""
 
-     //get rif of all the paragraphs
+     //get rid of all the paragraphs
 
 }
 
